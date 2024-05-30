@@ -1,0 +1,51 @@
+.sidebar{
+  position: fixed;
+  top: 55px;
+  left: 0;
+  bottom: 0;
+  width: 72px;
+  cursor: pointer;
+  z-index: 200;
+  padding-top: 5px;
+  background-color: white;
+}
+.sidebar-home,
+.sidebar-explore, 
+.sidebar-subsription,
+.sidebar-originals,
+.sidebar-music,
+.sidebar-library{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 74px;
+  
+}
+.sidebar-home:hover, 
+.sidebar-explore:hover, 
+.sidebar-subsription:hover,
+.sidebar-originals:hover,
+.sidebar-music:hover,
+.sidebar-library:hover{
+  background-color: rgb(240, 239, 239);
+  cursor: pointer;
+}
+.sidebar-home img, .sidebar-explore img,
+.sidebar-subsription img,
+.sidebar-originals img,
+.sidebar-music img,
+.sidebar-library img{
+  height: 24px;
+  margin-bottom: 4px;
+
+}
+.sidebar-home div,
+.sidebar-explore div,
+.sidebar-subsription div,
+.sidebar-originals div,
+.sidebar-music div,
+.sidebar-library div{
+  font-size: 10px;
+}
